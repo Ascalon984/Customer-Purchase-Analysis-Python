@@ -1,8 +1,11 @@
-![dreamina-2026-01-13-1541-Spanduk untuk portofolio proyek _Online-](https://github.com/user-attachments/assets/61bf11f0-7999-4716-a60e-4477fc20f47c)
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/61bf11f0-7999-4716-a60e-4477fc20f47c" width="800">
+</p>
+
 
 Online Store Sales Analysis Pipeline
 
-Transformasi Data Transaksi Menjadi Strategi Bisnis Berbasis Data.
+Transforming Transaction Data into Data-Based Business Strategy.
 
 [![Python](https://img.shields.io/badge/Python-3.12-blue?style=for-the-badge&logo=python&logoColor=white)](https://www.python.org/)
 [![Pandas](https://img.shields.io/badge/Pandas-Data%20Analysis-150458?style=for-the-badge&logo=pandas&logoColor=white)](https://pandas.pydata.org/)
@@ -14,36 +17,59 @@ Transformasi Data Transaksi Menjadi Strategi Bisnis Berbasis Data.
 
 📖 Overview
 
-Proyek ini merupakan pipeline analisis data histori pembelian pelanggan (Online Store Orders) yang terotomatisasi dengan Python. Alur kerja mencakup pembersihan data yang ketat (regex, perbaikan typo), transformasi fitur, segmentasi pelanggan, hingga analisis regresi dan visualisasi lanjutan untuk mendukung pengambilan keputusan strategis berbasis data.
+This project is an automated customer purchase history data analysis pipeline (Online Store Orders) with Python. Workflows include rigorous data cleaning (regex, typo fixing), feature transformation, customer segmentation, to regression analysis and advanced visualization to support data-driven strategic decision making.
 
 🚨 Business Impact:
-– Mengidentifikasi produk dan kategori dengan kontribusi pendapatan tertinggi
-– Memetakan perilaku belanja pelanggan dan loyalitas melalui segmentasi yang bermakna
-– Mendukung rekomendasi pemasaran dan strategi inventaris berdasarkan tren nyata dari data transaksi.
+– Identify products and categories with the highest revenue contribution
+– Map customer shopping behavior and loyalty through meaningful segmentation
+– Support marketing and inventory strategy recommendations based on real trends from transaction data.
 
-📊 Highlight Hasil AnalisisAnalisis & TemuanVisualisasi1. Revenue Contribution & Operational Health  Kategori Printer & Chair mendominasi pendapatan (masing-masing 15.5%). Namun, status Cancelled (250 pesanan) menjadi frekuensi tertinggi, mengindikasikan perlunya evaluasi sistem pemenuhan pesanan.<img width="350" alt="Revenue and Status" src="https://github.com/user-attachments/assets/2e69d553-acf9-4bdf-8296-05fd2c7c89a4" />2. Distribusi Sales Performance  Mayoritas transaksi (688 data) diklasifikasikan ke kategori Low Sales Performance. Ini merupakan peluang besar untuk strategi upselling ke kategori Medium (190) atau High (143).<img width="350" alt="Sales Performance" src="https://github.com/user-attachments/assets/3860011b-cc8c-4a34-a74e-09c379a05b1c" />3. Market Acquisition (Referral)  Saluran Instagram mengungguli platform lain dengan kontribusi $275.285,45, membuktikan efektivitas kampanye visual dalam menarik pelanggan bernilai tinggi.<img width="350" alt="Top Referral" src="https://github.com/user-attachments/assets/40fc6750-070f-4ab1-90c4-68cf6b2cbbdf" />4. Korelasi Volume Barang vs Total Harga  Ditemukan korelasi 0.39 (positif moderat). Grafik scatter plot memperlihatkan bahwa peningkatan jumlah item dalam keranjang cenderung diikuti oleh kenaikan total harga transaksi.<img width="350" alt="Correlation Plot" src="https://github.com/user-attachments/assets/8dc00b21-4104-46d6-900a-f23e9d56aa22" />5. Tren Volume Transaksi & Average Value  Transaksi terbanyak berisi 5-6 item. Secara strategis, garis merah menunjukkan Average TotalPrice memuncak pada transaksi 10 item (mendekati nilai 1.800).<img width="350" alt="Transaction Volume" src="https://github.com/user-attachments/assets/71a539da-847e-460b-ae9b-13695ca53e5e" />6. Ringkasan Kinerja Penjualan  Mempertegas dominasi segmen Low secara volume, namun memetakan kehadiran segmen Very High (94 transaksi) yang memberikan margin profitabilitas terbesar bagi bisnis.<img width="350" alt="Performance Distribution" src="https://github.com/user-attachments/assets/381106b5-fa74-4d7e-8b97-b04ce8250b58" />
-   
-💡 Temuan Utama (Executive Insights)
-- Market Leader: Produk Printer dan Laptop konsisten memimpin pendapatan, menunjukkan permintaan pasar yang kuat dan perlunya manajemen inventaris yang ketat pada kategori ini.
+📊 Highlights of Analysis Results
+1. Revenue Contribution & Operational Health
+The Printer & Chair category dominates revenue (15.5% each). However, the status Canceled (250 orders) was the highest frequency, indicating the need to evaluate the order fulfillment system.
+<img width="350" alt="Revenue and Status" src="https://github.com/user-attachments/assets/2e69d553-acf9-4bdf-8296-05fd2c7c89a4" />
 
-- Operational Leakage: Angka pembatalan (Cancelled: 250) yang melampaui status Delivered atau Shipped merupakan risiko operasional yang harus segera ditangani untuk mencegah kehilangan potensi profit.
+2. Distribution of Sales Performance
+The majority of transactions (688 data) were classified into the Low Sales Performance category. This is a great opportunity for an upselling strategy to the Medium (190) or High (143) categories.
+<img width="350" alt="Sales Performance" src="https://github.com/user-attachments/assets/3860011b-cc8c-4a34-a74e-09c379a05b1c" />
 
-- Optimal Basket Value: Meskipun transaksi terbanyak berisi 5-6 barang, profitabilitas maksimal (nilai rata-rata tertinggi) berada pada transaksi 10 barang. Strategi bundling sangat direkomendasikan.
+3. Market Acquisition (Referral)
+The Instagram channel outperformed other platforms with a contribution of $275,285.45, proving the effectiveness of visual campaigns in attracting high-value customers.
+<img width="350" alt="Top Referral" src="https://github.com/user-attachments/assets/40fc6750-070f-4ab1-90c4-68cf6b2cbbdf" />
 
-- Referral ROI: Instagram memberikan ROI tertinggi di atas rata-rata kanal lain, mengindikasikan bahwa alokasi anggaran pemasaran pada platform visual memberikan hasil yang signifikan.
+4. Correlation of Goods Volume vs Total Price
+Found a correlation of 0.39 (moderate positive). The scatter plot graph shows that an increase in the number of items in the basket tends to be followed by an increase in the total transaction price.
+<img width="350" alt="Correlation Plot" src="https://github.com/user-attachments/assets/8dc00b21-4104-46d6-900a-f23e9d56aa22" />
 
-- End-to-End Pipeline: Proyek ini mencakup pembersihan data (regex & typo correction), agregasi statistik, segmentasi pelanggan kustom, serta pemodelan Multiple Linear Regression menggunakan Statsmodels untuk prediksi pendapatan.
+5. Trends in Transaction Volume & Average Value
+Most transactions contain 5-6 items. Strategically, the red line shows Average TotalPrice peaking at 10 item transactions (near 1,800 value).
+<img width="350" alt="Transaction Volume" src="https://github.com/user-attachments/assets/71a539da-847e-460b-ae9b-13695ca53e5e" />
 
-🚀 Cara Menjalankan Proyek
+6. Sales Performance Summary
+Emphasizing the dominance of the Low segment in terms of volume, but mapping the presence of the Very High segment (94 transactions) which provides the largest profitability margin for the business.
+<img width="350" alt="Performance Distribution" src="https://github.com/user-attachments/assets/381106b5-fa74-4d7e-8b97-b04ce8250b58" />
 
-Clone repositori ini:
+💡 Key Findings (Executive Insights)
+- Market Leader: Printer and Laptop products consistently lead revenue, indicating strong market demand and the need for tight inventory management in this category.
+
+- Operational Leakage: The cancellation number (Cancelled: 250) that exceeds the Delivered or Shipped status is an operational risk that must be handled immediately to prevent potential profit loss.
+
+- Optimal Basket Value: Even though most transactions contain 5-6 items, maximum profitability (highest average value) is in transactions of 10 items. The bundling strategy is highly recommended.
+
+- Referral ROI: Instagram provides the highest ROI above the average of other channels, indicating that marketing budget allocation on the visual platform provides significant results.
+
+- End-to-End Pipeline: This project includes data cleaning (regex & typo correction), statistical aggregation, custom customer segmentation, as well as Multiple Linear Regression modeling using Statsmodels for revenue prediction.
+
+🚀 How to Run a Project
+
+Clone this repository:
 git clone https://github.com/Ascalon984/Customer-Purchase-Analysis-Python
 
-Pastikan dataset (Online-Store-Orders.xlsx) tersedia di folder proyek.
+Make sure the dataset (Online-Store-Orders.xlsx) is available in the project folder.
 
-Install dependensi:
+Install dependencies:
 pip install pandas numpy matplotlib statsmodels tabulate openpyxl
-4. Jalankan script Python sesuai urutan penomoran.
+4. Run the Python script in order of numbering.
 
 ---
 Organized by **[Aditya Tri Prasetyo]** • 2026 | [![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=flat-square&logo=linkedin&logoColor=white)](https://linkedin.com/in/aditya-tri-prasetyo-7b3a0a396) [![Instagram](https://img.shields.io/badge/Instagram-E4405F?style=flat-square&logo=instagram&logoColor=white)](https://instagram.com/aditya.trisetya)
