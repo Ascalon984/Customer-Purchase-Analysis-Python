@@ -26,8 +26,8 @@ This project is an automated customer purchase history data analysis pipeline (O
 
 ---
 
-## 🛠️ Navigasi Modul
-Akses dokumentasi teknis dan kode sumber lengkap untuk setiap tahap melalui modul di bawah ini:
+## 🛠️ Module Navigation
+Access the technical documentation and complete source code for each stage through the modules below:
 
 | 🧹 01. Data Cleaning & Preprocessing | 🧬 02. Statistical Modeling | 📈 03. Insight Visualization |
 | :--- | :--- | :--- |
