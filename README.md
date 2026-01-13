@@ -24,30 +24,77 @@ This project is an automated customer purchase history data analysis pipeline (O
 – Map customer shopping behavior and loyalty through meaningful segmentation
 – Support marketing and inventory strategy recommendations based on real trends from transaction data.
 
+---
+
+## 🛠️ Navigasi Modul
+Akses dokumentasi teknis dan kode sumber lengkap untuk setiap tahap melalui modul di bawah ini:
+
+| 🧹 01. Data Cleaning & Preprocessing | 🧬 02. Statistical Modeling | 📈 03. Insight Visualization |
+| :--- | :--- | :--- |
+| Regex cleaning, handling nulls, & data type conversion. | Multiple Linear Regression (Statsmodels) & Customer Segmentation (NumPy). | Advanced plotting (Matplotlib) & Automated Reporting (Tabulate). |
+
+---
+
 📊 Highlights of Analysis Results
 1. Revenue Contribution & Operational Health
 The Printer & Chair category dominates revenue (15.5% each). However, the status Canceled (250 orders) was the highest frequency, indicating the need to evaluate the order fulfillment system.
-<img width="350" alt="Revenue and Status" src="https://github.com/user-attachments/assets/2e69d553-acf9-4bdf-8296-05fd2c7c89a4" />
+<table border="0">
+  <tr>
+    <td>
+      <img src="https://github.com/user-attachments/assets/be2b5b20-d8dc-427b-8910-b98943c785ee" width="400" alt="Revenue Analysis">
+    </td>
+    <td>
+      <img src="https://github.com/user-attachments/assets/791a34c6-0409-457c-8886-5342209b5b02" width="400" alt="Order Status">
+    </td>
+  </tr>
+</table>
 
-2. Distribution of Sales Performance
+3. Distribution of Sales Performance
 The majority of transactions (688 data) were classified into the Low Sales Performance category. This is a great opportunity for an upselling strategy to the Medium (190) or High (143) categories.
-<img width="350" alt="Sales Performance" src="https://github.com/user-attachments/assets/3860011b-cc8c-4a34-a74e-09c379a05b1c" />
+<table border="0">
+  <tr>
+    <td align="center">
+      <img src="https://github.com/user-attachments/assets/422b6ba3-2c91-4e31-837e-6d99891edd98" width="400" alt="Sales Performance Distribution">
+      <br><em>Sales Performance Distribution</em>
+    </td>
+  </tr>
+</table>
 
-3. Market Acquisition (Referral)
+4. Market Acquisition (Referral)
 The Instagram channel outperformed other platforms with a contribution of $275,285.45, proving the effectiveness of visual campaigns in attracting high-value customers.
-<img width="350" alt="Top Referral" src="https://github.com/user-attachments/assets/40fc6750-070f-4ab1-90c4-68cf6b2cbbdf" />
+<table border="0">
+  <tr>
+    <td align="center" width="800">
+      <img src="https://github.com/user-attachments/assets/40fc6750-070f-4ab1-90c4-68cf6b2cbbdf" width="600" alt="Top Referral">
+      <br>
+      <small><em>Market Acquisition by Referral Source</em></small>
+    </td>
+  </tr>
+</table>
 
-4. Correlation of Goods Volume vs Total Price
+6. Correlation of Goods Volume vs Total Price
 Found a correlation of 0.39 (moderate positive). The scatter plot graph shows that an increase in the number of items in the basket tends to be followed by an increase in the total transaction price.
-<img width="350" alt="Correlation Plot" src="https://github.com/user-attachments/assets/8dc00b21-4104-46d6-900a-f23e9d56aa22" />
+<table border="0">
+  <tr>
+    <td align="center" width="800">
+      <img src="https://github.com/user-attachments/assets/1b5a79d4-ef13-4295-ad2f-044f21b0ba78" width="600" alt="Correlation Plot">
+      <br>
+      <small><em>Correlation of Goods Volume vs Total Price</em></small>
+    </td>
+  </tr>
+</table>
 
-5. Trends in Transaction Volume & Average Value
+8. Trends in Transaction Volume & Average Value
 Most transactions contain 5-6 items. Strategically, the red line shows Average TotalPrice peaking at 10 item transactions (near 1,800 value).
-<img width="350" alt="Transaction Volume" src="https://github.com/user-attachments/assets/71a539da-847e-460b-ae9b-13695ca53e5e" />
-
-6. Sales Performance Summary
-Emphasizing the dominance of the Low segment in terms of volume, but mapping the presence of the Very High segment (94 transactions) which provides the largest profitability margin for the business.
-<img width="350" alt="Performance Distribution" src="https://github.com/user-attachments/assets/381106b5-fa74-4d7e-8b97-b04ce8250b58" />
+<table border="0">
+  <tr>
+    <td align="center" width="800">
+      <img src="https://github.com/user-attachments/assets/8dc00b21-4104-46d6-900a-f23e9d56aa22" width="700" alt="Transaction Volume Trend">
+      <br>
+      <small><em>Relationship Between Item Count per Transaction and Average Order Value</em></small>
+    </td>
+  </tr>
+</table>
 
 💡 Key Findings (Executive Insights)
 - Market Leader: Printer and Laptop products consistently lead revenue, indicating strong market demand and the need for tight inventory management in this category.
